@@ -1,0 +1,30 @@
+body {
+  font-family: 'Patrick Hand', cursive;
+  max-width: 500px;
+  background-color: lightseagreen;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.todo-list {
+  font-size: 18px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.todo-item {
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 5px;
+  background-color: antiquewhite;
+}
+
+.todo-item:hover,
+button:hover {
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+}
