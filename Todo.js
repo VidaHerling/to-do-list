@@ -1,7 +1,6 @@
-function Todo({todo, index, remove}) {
-  
-  const handle = () => remove(index);
+function Todo({id, todo, toggle}) {
 
+  const handle = () => toggle(id);
   return (
     <div className="todo-item" onClick={handle}>
     {todo.text}&nbsp; 
