@@ -1,4 +1,4 @@
-# to-do-list-styling
+# Todo List
 
 ## Description:
 In this project, I have created a simple todo list in React. You can add new items to the to do list and remove items by clicking the "done" button. I also added some basic styling to make it easier to read (see the css file for details).
